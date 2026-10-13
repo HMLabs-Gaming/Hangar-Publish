@@ -1,24 +1,19 @@
 <div align="center">
-  <h1>Hangar Publish</h1>
+  <h1>HM Hangar Publish</h1>
 
   A GitHub Action to automate plugin releases to [Hangar](https://hangar.papermc.io), PaperMC's official plugin repository, forked and improved off of [Ben Woo's Hangar Upload Action](https://github.com/benwoo1110/hangar-upload-action).
 
   <br>
-  <div align="center">
-    <a href="https://github.com/milkdrinkers/Hangar-Publish/blob/main/LICENSE">
-        <img alt="GitHub License" src="https://img.shields.io/github/license/milkdrinkers/Hangar-Publish?style=for-the-badge&color=blue&labelColor=141417">
-    </a>
-    <a href="https://github.com/milkdrinkers/Hangar-Publish/releases">
-        <img alt="GitHub Release" src="https://img.shields.io/github/v/release/milkdrinkers/Hangar-Publish?include_prereleases&sort=semver&style=for-the-badge&label=LATEST%20VERSION&labelColor=141417">
-    </a>
-    <a href="https://github.com/milkdrinkers/Hangar-Publish/issues">
-        <img alt="GitHub Issues" src="https://img.shields.io/github/issues/milkdrinkers/Hangar-Publish?style=for-the-badge&labelColor=141417">
-    </a>
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/milkdrinkers/Hangar-Publish?style=for-the-badge&labelColor=141417">
-    <a href="https://discord.gg/cG5uWvUcM6">
-      <img alt="Discord Server" src="https://img.shields.io/discord/1008300159333040158?style=for-the-badge&logo=discord&logoColor=ffffff&label=discord&labelColor=141417&color=%235865F2">
-    </a>
-  </div>
+  <a href="https://github.com/HMLabs-Gaming/Hangar-Publish/blob/main/LICENSE">
+    <img alt="GitHub License" src="https://img.shields.io/github/license/HMLabs-Gaming/Hangar-Publish?style=for-the-badge&color=blue&labelColor=141417">
+  </a>
+  <a href="https://github.com/HMLabs-Gaming/Hangar-Publish/releases">
+    <img alt="GitHub Release" src="https://img.shields.io/github/v/release/HMLabs-Gaming/Hangar-Publish?include_prereleases&sort=semver&style=for-the-badge&label=LATEST%20VERSION&labelColor=141417">
+  </a>
+  <a href="https://github.com/HMLabs-Gaming/Hangar-Publish/issues">
+    <img alt="GitHub Issues" src="https://img.shields.io/github/issues/HMLabs-Gaming/Hangar-Publish?style=for-the-badge&labelColor=141417">
+  </a>
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HMLabs-Gaming/Hangar-Publish?style=for-the-badge&labelColor=141417">
 </div>
 
 ---
@@ -405,4 +400,7 @@ This repository is licensed under the MIT License. You can find the license, the
 
 ## ❤️ Acknowledgments
 
-- **[Ben Woo:](https://github.com/benwoo1110)** _For their excellent GitHub Action [Hangar Upload Action](https://github.com/benwoo1110/hangar-upload-action). From which, this action was originally a fork._
+- **[milkdrinkers](https://github.com/milkdrinkers)** — For the original [Hangar-Publish](https://github.com/milkdrinkers/Hangar-Publish) project, which this repository is forked from.
+- **[Ben Woo](https://github.com/benwoo1110)** — For the original [Hangar Upload Action](https://github.com/benwoo1110/hangar-upload-action) project, which Hangar-Publish repository is forked from.
+
+This fork is maintained by [HMLabs-Gaming](https://github.com/HMLabs-Gaming).
