@@ -1,4 +1,4 @@
-name: 'Hangar Publish'
+name: 'HM Hangar Publish'
 description: 'Upload Minecraft plugins to Hangar (PaperMC) with comprehensive file and dependency management'
 
 branding:
