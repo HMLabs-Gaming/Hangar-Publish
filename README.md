@@ -1,7 +1,7 @@
 <div align="center">
   <h1>HM Hangar Publish</h1>
 
-  A GitHub Action to automate plugin releases to [Hangar](https://hangar.papermc.io), PaperMC's official plugin repository, forked and improved off of [Ben Woo's Hangar Upload Action](https://github.com/benwoo1110/hangar-upload-action).
+  A GitHub Action to automate plugin releases to [Hangar](https://hangar.papermc.io), PaperMC's official plugin repository, forked and improved off of [milkdrinkers's Hangar Publish](https://github.com/milkdrinkers/Hangar-Publish) which was forken and improved off of [Ben Woo's Hangar Upload Action](https://github.com/benwoo1110/hangar-upload-action).
 
   <br>
   <a href="https://github.com/HMLabs-Gaming/Hangar-Publish/blob/main/LICENSE">
