@@ -42,18 +42,9 @@ export const getPlatformVersions = async (platform: string) => {
 
     // Filter out pre-release versions and only keep versions that can be normalized to semver
     const releaseVersions = Object.entries(projectData)
-      .flatMap(([_, resp]) => {
-        switch (platform.toLowerCase()) {
-          case "velocity":
-            return [resp.version, ...resp.subVersions]; // For velocity we include all versions
-          default:
-            return resp.subVersions;
-        }
-      })
-      .filter(
-        (v) =>
-          !v.includes("pre") && !v.includes("rc") && !v.includes("snapshot"),
-      )
+      .flatMap(([_, resp]) => [resp.version, ...resp.subVersions])
+      .filter((v, i, arr) => arr.indexOf(v) === i)
+      .filter((v) => !/(?:pre|rc|snapshot)(?:[-.]|$)/i.test(v))
       .map((v) => {
         return {
           semver: normalizeVersionForSemver(v),

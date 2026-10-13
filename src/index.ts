@@ -56,7 +56,7 @@ await main(logger).catch((error) => {
   if (error instanceof HangarError) {
     logger.error(`Hangar API error (${error.statusCode}): ${error.message}`);
     if (error.responseBody) {
-      logger.debug("API response body", error.responseBody);
+      logger.error(`API response body: ${error.responseBody}`);
     }
   } else if (error instanceof Error) {
     logger.error(`Action failed: ${error.message}`);

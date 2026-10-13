@@ -41,7 +41,7 @@ export class HangarClient {
 
       if (!response.ok) {
         throw new HangarError(
-          `Authentication failed: ${response.statusText}`,
+          `Authentication failed (${response.status}): ${responseText || response.statusText}`,
           response.status,
           responseText,
         );
@@ -126,7 +126,7 @@ export class HangarClient {
 
       if (!response.ok) {
         throw new HangarError(
-          `Upload failed: ${response.statusText}`,
+          `Upload failed (${response.status}): ${responseText || response.statusText}`,
           response.status,
           responseText,
         );
